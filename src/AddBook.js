@@ -16,7 +16,7 @@ class AddBook extends Component {
 
   updateQuery = (query) => {
     this.setState((prevState) => ({
-      ...prevState, query
+      query: query
     }))
   }
 
